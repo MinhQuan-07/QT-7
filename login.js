@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 localStorage.setItem("isLoggedIn", "true");
                 
                 // Chuyển về trang chủ
-                window.location.href = "Homepage.html";
+                window.location.href = "index.html";
             } else {
                 // Đăng nhập sai
                 alert("Email hoặc mật khẩu không đúng. Thử lại nhé!");
